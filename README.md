@@ -15,7 +15,7 @@ go install github.com/siskonemilia/CloudGo-IO
 CloudGo-IO [-h/--hostname hostname] [-p/--port port]
 ```
 
-然后你就可以访问 http://hostname:port，比如默认的 [http://localhost:8000](http://localhost:8000)，来使用功能了。一开始你会看到的是一个注册界面，在注册完成后你会自动跳转到信息页面。在知道其他用户的用户名的前提下，你也可以通过 http://hostname:port/detail?username=\[username\] 来查看其他用户的信息。
+然后你就可以访问 `http://hostname:port` 了，比如默认的 [http://localhost:8000](http://localhost:8000)，来使用功能了。一开始你会看到的是一个注册界面，在注册完成后你会自动跳转到信息页面。在知道其他用户的用户名的前提下，你也可以通过 `http://hostname:port/detail?username=username` 来查看其他用户的信息。
 
 ## Gin 框架基本用法
 
