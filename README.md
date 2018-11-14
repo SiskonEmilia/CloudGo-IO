@@ -10,6 +10,7 @@
 配置好 Golang 环境的前提下，运行以下命令安装并使用 CloudGo-IO：
 
 ```bash
+go get github.com/siskonemilia/CloudGo-IO
 go install github.com/siskonemilia/CloudGo-IO
 CloudGo-IO [-h/--hostname hostname] [-p/--port port]
 ```
